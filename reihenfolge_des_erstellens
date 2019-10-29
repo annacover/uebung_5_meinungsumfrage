@@ -1,0 +1,2 @@
+1. die komponenten Frage und Fragebogen erstellen. Die Antwortmöglichkeiten sind in einem Array gespeichert und der
+    Fragetext ist über einen Eingang wählbar. In der Frage-Komponente werdene die Fragen in einem Array übergeben.

@@ -1,0 +1,7 @@
+<div>
+    <h4>{{$ctrl.frageText}}</h4>
+    <md-radio-group ng-model="$ctrl.auswahl" ng-change="$ctrl.chosen()" layout="row"><!--change geht nur mit ngModel-->
+        <md-radio-button ng-repeat="a in $ctrl.antwortmoeglichkeiten" ng-value="$index"><span>{{a}}</span></md-radio-button>
+    </md-radio-group>
+    <hr>
+</div>

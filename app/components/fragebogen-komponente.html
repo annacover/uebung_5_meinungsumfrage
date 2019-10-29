@@ -1,0 +1,6 @@
+<div>
+    <h3>Meinungsumfrage</h3>
+    Es sind schon {{$ctrl.offen()}} von {{$ctrl.fragen.length}} beantwortet.
+    <frage-komponente ng-repeat="f in $ctrl.fragen" frage-text="{{f}}" aus-gewaehlt="$ctrl.gewaehlt($index)"></frage-komponente>
+
+</div>
